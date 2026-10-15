@@ -1,0 +1,12 @@
+ipykernel
+jupyter
+joblib
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+shap
+statsmodels
+xgboost
