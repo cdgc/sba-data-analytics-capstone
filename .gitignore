@@ -219,12 +219,15 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 # Large FOIA datasets
-templates_checkilsts
+templates_checklist/
+templates_checkilsts/
 # Ignore all CSV datasets
 raw_data/*.csv
 data/*.csv
 *.csv
-
+!processed_data/analysis_sample.csv
+!processed_data/model_data_with_split.csv
 # Ignore large excel dictionaries
 raw_data/*.xlsx
 data/*.xlsx
+ml_models/
